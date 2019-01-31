@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "checkJs": false,
+    "lib": ["es2015", "es2016", "dom"],
+    "paths": {
+      "@ui/*": ["./styles/*"],
+      "@api/*": ["./api/*"]
+    }
+  },
+  "exclude": ["node_modules", "public"]
+}
